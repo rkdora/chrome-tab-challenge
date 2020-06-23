@@ -1,7 +1,12 @@
 <template>
   <div class="home">
     <h1>Let's Chrome Tab Challenge!!</h1>
-    <button @click="start()">Start</button>
+    <button @click="start()">Start（自己責任でお願いします。開発者は一切の責任を負いません。）</button>
+    
+    <p>Startボタンをクリックすると、タブが100個開きます。（ポップアップを許可する必要あり）</p>
+    <p>いいパソコンの指標って、「Chromeのタブをどれくらい開けるか」ですよね？<br>
+      当Webアプリは、Chromeのタブをどれくらい開くことができるかでパソコンのスペック比較する未来を目指し開発を進めてまいります。
+    </p>
   </div>
 </template>
 
